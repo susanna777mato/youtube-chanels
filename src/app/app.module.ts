@@ -7,6 +7,11 @@ import { HoomPageComponent } from './components/hoom-page/hoom-page.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
 import { ChannelsComponent } from './components/channels/channels.component';
 import { AdvantagesPageComponent } from './components/advantages-page/advantages-page.component';
+import { ReviewsPageComponent } from './components/reviews-page/reviews-page.component';
+import Swiper from 'swiper';
+
+
+
 
 @NgModule({
   declarations: [
@@ -15,12 +20,14 @@ import { AdvantagesPageComponent } from './components/advantages-page/advantages
     HoomPageComponent,
     AboutPageComponent,
     ChannelsComponent,
-    AdvantagesPageComponent
+    AdvantagesPageComponent,
+    ReviewsPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+
   ],
-  providers: [],
+  providers: [Swiper],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

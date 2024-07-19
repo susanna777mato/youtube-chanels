@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.jandaba{
+    height: 80%;
+}
+
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: rgb(255, 29, 86);
+}
+
+hr{
+    width: 400px;
+    display: inline-block;
+     border: none;
+     height: 2px;
+    background-color: rgb(255, 29, 86) ;
+}
