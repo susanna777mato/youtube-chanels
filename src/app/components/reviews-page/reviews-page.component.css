@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80%;
 }  
 
-.jandaba{
+.content{
     height: 80%;
 }
 

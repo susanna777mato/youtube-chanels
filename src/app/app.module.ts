@@ -9,6 +9,9 @@ import { ChannelsComponent } from './components/channels/channels.component';
 import { AdvantagesPageComponent } from './components/advantages-page/advantages-page.component';
 import { ReviewsPageComponent } from './components/reviews-page/reviews-page.component';
 import Swiper from 'swiper';
+import { FormsModule } from '@angular/forms';
+import { AtworkPageComponent } from './components/atwork-page/atwork-page.component';
+import { ResourcesPageComponent } from './components/resources-page/resources-page.component';
 
 
 
@@ -21,10 +24,12 @@ import Swiper from 'swiper';
     AboutPageComponent,
     ChannelsComponent,
     AdvantagesPageComponent,
-    ReviewsPageComponent
+    ReviewsPageComponent,
+    AtworkPageComponent,
+    ResourcesPageComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, FormsModule
 
   ],
   providers: [Swiper],
