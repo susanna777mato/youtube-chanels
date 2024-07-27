@@ -7,8 +7,8 @@ import { OnInit } from '@angular/core';
   styleUrls: ['./atwork-page.component.css']
 })
 export class AtworkPageComponent implements OnInit {
- yourMany = 0
- inputRange1: any = 5000
+ yourMany = 50
+ inputRange1: any = 1000
  inputRange2 = 5
 
 
@@ -18,14 +18,14 @@ export class AtworkPageComponent implements OnInit {
    resultFunction() {
     this.yourMany = (this.inputRange1 * (this.inputRange2 / 100) )
   
-    if (+this.inputRange1 > 9000) {
-      this.inputRange1 = 9000
-      this.yourMany = 9000 * (this.inputRange2 / 100)
+    if (+this.inputRange1 > 900000) {
+      this.inputRange1 = 900000
+      this.yourMany = 900000 * (this.inputRange2 / 100)
     }
  
-    if (+this.inputRange1 < 5000) {
-      this.inputRange1 = 5000
-      this.yourMany = 5000 * (this.inputRange2 / 100)
+    if (+this.inputRange1 < 1000) {
+      this.inputRange1 = 1000
+      this.yourMany = 1000 * (this.inputRange2 / 100)
     }
 
 
@@ -44,8 +44,8 @@ export class AtworkPageComponent implements OnInit {
 
 
    ngOnInit(): void {
-     if (+this.inputRange1 > 9000) {
-       this.inputRange1 = 9000
+     if (+this.inputRange1 > 900000) {
+       this.inputRange1 = 900000
      }
    }
 

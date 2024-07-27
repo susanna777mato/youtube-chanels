@@ -10,6 +10,12 @@
     z-index: 1000;
 }
 
+img{
+    width: 55px;
+    height: 55px;
+}
+
+
 span{
     cursor: pointer;
     font-weight: 600;
@@ -22,6 +28,7 @@ span:hover{
 
 h1{
     cursor: pointer;
+    font-size: 15px;
 }
 
 .svg{
@@ -40,4 +47,39 @@ h1{
     padding-right: 60px;
     color: black;
     font-size: 15px;
+}
+
+@media (min-width: 410px) and (max-width: 1490px) {
+    body{
+        font-size: 40px;
+
+    }
+
+    span{
+        font-size: 6px;
+    }
+
+    h1{
+        font-size: 6px;
+    }
+
+    img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav-text{
+        display: flex;
+        gap: 10px;
+    }
+
+
+    .conteiner{
+        height: 40px;
+        display: flex;
+        width: 100vh;
+        background-color: yellow;
+        justify-content: space-between;
+    }
+
 }

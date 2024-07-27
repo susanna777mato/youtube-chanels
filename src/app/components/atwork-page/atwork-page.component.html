@@ -24,20 +24,20 @@
                  
                <div style="display: flex; flex-direction: column;  " class="input-1">
               <div> 
-                <h3>Количество привлеченных клиентов в месяц</h3> 
+                <h3>Стоимость найденных каналов за месяц</h3> 
               </div>
               <div style="display: flex; gap: 50px;" >
-                 <input (click)="resultFunction()" [(ngModel)]="inputRange1" class="input-range1" min="5000" max="9000" style="width: 400px;" type="range">
+                 <input (click)="resultFunction()" [(ngModel)]="inputRange1" class="input-range1" min="1000" max="900000" style="width: 400px;" type="range">
                   <input (click)="resultFunction()" (keyup.enter)="resultFunction()" [(ngModel)]="inputRange1"  class="input-text1" style="width: 150px; height: 40px; padding: 10px; font-size: 30px;" type="text">
                 </div>
                 <div style="display: flex; justify-content: space-between; width: 400px;">
-                  <p>5000</p>
-                  <p>9000</p>
+                  <p>1000</p>
+                  <p>900000</p>
                </div>
                </div> 
                <div style="display: flex; flex-direction: column; " class="input-2">
                 <div>
-                <h3>Количество привлеченных клиентов в месяц</h3> 
+                <h3>Средний процент выплаты</h3> 
                 </div>
                 <div class="input-container1" style="display: flex; gap: 50px;">
                   <input (click)="resultFunction()" min="5" max="20" [(ngModel)]="inputRange2" class="input-range2" style="width: 400px;" type="range">
@@ -52,7 +52,7 @@
               </div>
               <div class="vtarachast">
                   <h2 class="your-many">Ваш доход в месяц</h2>
-                  <h3 style="font-size: 30px; color: rgb(142, 86, 233) ;">{{ yourMany}}</h3>
+                  <h3 style="font-size: 30px; color: rgb(142, 86, 233) ;">{{ yourMany}}₽</h3>
                   <div style="display: flex; flex-direction: column; gap: 10px;"> 
                     <li>Калькулятор рассчитывает стоимость купленных мною каналов (за сколько были куплены), которые ты нашел мне в течении месяца, а также средний выплаченный процент от стоимости всех этих каналов. Тем самым получается определенный доход за месяц.
                     </li>
