@@ -14,12 +14,62 @@
     justify-content: space-around;
 }
 
+.img{
+    width: 470px;
+    height: 270px;
+}
+
 h3{
     text-align: center;
     color: white;
 }
 
+.h1-teg{
+    font-size: 50px;
+}
+
 .text-img{
     font-size: 40px;
     color: white;
+}
+
+@media (min-width: 410px) and (max-width: 1490px) {
+ 
+     .container{
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+        height: 100vh;
+    
+    }
+
+     .blok{
+        width: 100vh;
+        height: 100vh;
+        border: 2px solid black;
+        background-color: black;
+        padding: 20px;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        
+     }
+
+     .img{
+        width: 270px;
+        height: 170px;
+     }
+
+     .text-img {
+        font-size: 20px;
+     }
+
+     h3{
+       font-size: 15px;
+     }
+
+    .h1-teg{
+        width: 100vh;
+
+    }
 }

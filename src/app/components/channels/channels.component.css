@@ -44,12 +44,38 @@
     height: 75px;
 }
 
-.remove-bg{
-    filter: brightness(0) invert(1);
+
+.text-2blok {
+    padding: 20px;
+   font-size: 35px
 }
+
+.h2-ot-100{
+    padding: 20px; 
+    font-size: 26px;
+}
+
 
 .text-3blok{
    padding: 23px;
    font-size: 34px;
+
+}
+
+@media (min-width: 410px) and (max-width: 1490px) {
+     .container{
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+        height: 100vh;
+        margin-bottom: 90px;
+     }
+     
+     .text{
+        display: flex;
+        justify-content: center;
+        width: 100vh;
+        margin-left: 30px;
+     }
 
 }

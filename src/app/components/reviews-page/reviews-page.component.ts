@@ -32,11 +32,11 @@ export class ReviewsPageComponent implements OnInit {
 
       breakpoints: {
         0:{
-          slidesPerView: 1
+          slidesPerView: 2
         },
 
         620:{
-          slidesPerView: 2
+          slidesPerView: 1
         }
         ,
         1024:{

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {MatDividerModule} from '@angular/material/divider'
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
@@ -29,7 +30,7 @@ import { ResourcesPageComponent } from './components/resources-page/resources-pa
     ResourcesPageComponent
   ],
   imports: [
-    BrowserModule, FormsModule
+    BrowserModule, FormsModule, MatDividerModule
 
   ],
   providers: [Swiper],

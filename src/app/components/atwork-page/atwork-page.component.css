@@ -48,10 +48,18 @@
     gap: 50px;
 }
 
+.h2-zarabotai{
+    font-size: 40px;
+}
 
 
 li{
     font-size: 14px;
+}
+
+.chel-vachkax{
+    width: 350px;
+    height: 350px;
 }
 
 .vtarachast{
@@ -64,4 +72,43 @@ li{
     height: 350px;
     border-radius: 16px;
     box-shadow: rgba(108, 107, 158, 0.26) 0px 6px 20px 0px;
+}
+
+@media (min-width: 410px) and (max-width: 1490px) {
+    .container{
+        width: 100vh;
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .h2-zarabotai{
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .chel-vachkax{
+       width: 260px;
+       height: 260px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .kalklator{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        gap: 50px;
+    }
+
+    .pervaiachast{
+        width: 550px;
+        height: 350px ;
+    }
 }

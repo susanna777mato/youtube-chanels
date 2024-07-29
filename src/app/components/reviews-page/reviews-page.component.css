@@ -27,3 +27,47 @@ hr{
      height: 2px;
     background-color: rgb(255, 29, 86) ;
 }
+
+img{
+    height: 470px;
+}
+
+@media (min-width: 410px) and (max-width: 1490px){
+
+
+   .content {
+    height: 59px;
+    width: 100vh;
+   }
+
+   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    background-color: blue;
+    height: 300px;
+   }
+
+  
+
+   img{
+    height: 270px;
+   }
+
+   h2{
+    background-color:  yellow;
+   }
+
+   .response{
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vh;
+    background-color: aqua;
+   }
+
+
+}
