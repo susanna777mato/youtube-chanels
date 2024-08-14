@@ -62,20 +62,19 @@
 
 }
 
-@media (min-width: 410px) and (max-width: 1490px) {
+ @media (min-width: 200px) {
      .container{
         display: flex;
         flex-direction: column;
-        width: 100vh;
-        height: 100vh;
         margin-bottom: 90px;
+        background-color: chartreuse;
      }
      
      .text{
         display: flex;
         justify-content: center;
-        width: 100vh;
         margin-left: 30px;
+        background-color: chocolate;
      }
 
-}
+} 

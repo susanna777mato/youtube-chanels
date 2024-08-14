@@ -7,6 +7,7 @@
 
 .content{
     height: 80%;
+    width: 100%;
 }
 
 
@@ -32,19 +33,18 @@ img{
     height: 470px;
 }
 
-@media (min-width: 410px) and (max-width: 1490px){
+ @media (min-width: 200px){
 
 
    .content {
     height: 59px;
-    width: 100vh;
+
    }
 
    .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vh;
     background-color: blue;
     height: 300px;
    }
@@ -60,14 +60,12 @@ img{
    }
 
    .response{
-    height: 250vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vh;
     background-color: aqua;
    }
 
 
-}
+} 

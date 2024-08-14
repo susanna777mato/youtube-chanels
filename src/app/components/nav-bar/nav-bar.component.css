@@ -1,5 +1,5 @@
 
-.conteiner{
+.conteiner124{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -49,7 +49,7 @@ h1{
     font-size: 15px;
 }
 
-@media (min-width: 410px) and (max-width: 1490px) {
+ @media (min-width: 200px) {
     body{
         font-size: 40px;
 
@@ -74,12 +74,11 @@ h1{
     }
 
 
-    .conteiner{
+    .conteiner124{
         height: 40px;
         display: flex;
-        width: 100vh;
         background-color: yellow;
         justify-content: space-between;
     }
 
-}
+} 

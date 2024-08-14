@@ -74,10 +74,8 @@ li{
     box-shadow: rgba(108, 107, 158, 0.26) 0px 6px 20px 0px;
 }
 
-@media (min-width: 410px) and (max-width: 1490px) {
+@media (min-width: 200px) {
     .container{
-        width: 100vh;
-        height: 250vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -111,4 +109,4 @@ li{
         width: 550px;
         height: 350px ;
     }
-}
+} 

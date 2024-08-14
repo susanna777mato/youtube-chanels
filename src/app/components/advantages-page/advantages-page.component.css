@@ -33,19 +33,13 @@ h3{
     color: white;
 }
 
-@media (min-width: 410px) and (max-width: 1490px) {
+@media (min-width: 200px) {
  
      .container{
-        display: flex;
-        flex-direction: column;
-        width: 100vh;
-        height: 100vh;
-    
+       background-color: chartreuse;
     }
 
      .blok{
-        width: 100vh;
-        height: 100vh;
         border: 2px solid black;
         background-color: black;
         padding: 20px;
@@ -68,8 +62,8 @@ h3{
        font-size: 15px;
      }
 
-    .h1-teg{
+     .h1-teg{
         width: 100vh;
 
+    } 
     }
-}

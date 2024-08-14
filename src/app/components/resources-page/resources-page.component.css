@@ -1,6 +1,7 @@
 .container{
     display: flex;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -51,12 +52,11 @@ p{
     width: 300px;
 }
 
-@media (min-width: 410px) and (max-width: 1490px) {
+ @media (min-width: 200px) {
     .container{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vh;
-        height: 200vh;
+        background-color: red;
     }
-}
+} 
